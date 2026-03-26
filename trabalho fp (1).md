@@ -150,11 +150,11 @@ Tabela 1: Cronograma do ensaio clínico MindMove
 | **Intervenção** | 8 semanas | Exercício aeróbico supervisionado (Grupo E) vs. Controlo sedentário (Grupo C) |  |
 | **Follow-up** | 8 semanas | Avaliações intermédias (4ªsem) e avaliação final (8ªsem) para medir eficácia |  |
 
-<img width="711" height="731" alt="Desenho de estudo CONSORT" src="https://github.com/user-attachments/assets/fc59fdf9-0478-49a0-8bf6-62ef1626b3e2" />
-
 O diagrama CONSORT será utilizado como ferramenta de reporte deste
 estudo, sendo preenchido na sua totalidade após a conclusão do ensaio
 clínico (Figura 1). 
+
+<img width="711" height="731" alt="Desenho de estudo CONSORT" src="https://github.com/user-attachments/assets/fc59fdf9-0478-49a0-8bf6-62ef1626b3e2" />
 
 Figura 1: Fluxograma CONSORT do ensaio clínico, ilustrando o processo de
 recrutamento, elegibilidade, randomização, follow-up e análise dos
@@ -270,24 +270,14 @@ Funcionalidades principais:
 
 - A interação é feita através de escalas visuais analógicas.
 
-  <figure>
-
-  <img src="./494fb1f54dabe25908f24e75c8dac14f.png"
-  alt="494fb1f54dabe25908f24e75c8dac14f.png" />
-
-  <figcaption aria-hidden="true">
-
-  494fb1f54dabe25908f24e75c8dac14f.png
-
-  </figcaption>
-
-  </figure>
+<img width="4425" height="3375" alt="sequência" src="https://github.com/user-attachments/assets/158b6c6a-7caa-493a-95a3-5536f9aace82" />
 
   Figura 2: Diagrama de atividade que representa o percurso do
   participante ao longo do ensaio clínico, desde o recrutamento e
   avaliação de elegibilidade até à randomização, follow-up e análise
   final
-  ![a52bf178bacc3031da75d088559da74f.png](./a52bf178bacc3031da75d088559da74f.png)
+  
+<img width="4107" height="5039" alt="User-Centric Use Case Flow-2026-03-23-225125" src="https://github.com/user-attachments/assets/060fb7b8-9b9d-4bc8-be3b-5aace2d63561" />
 
 Figura 3: Diagrama de sequência com o processo de registo de humor na
 apli cação MindMove, desde a introdução dos dados pelo utilizador até ao
@@ -344,11 +334,12 @@ especializadas é elevado, sendo o material educativo a única ferramenta
 de suporte imediato disponível em muitos contextos. O design de lista de
 espera garante que, por razões éticas, todos os participantes tenham
 acesso à tecnologia benéfica após o período de avaliação principal.
-![7c1aa0ea75c712158ce123be2541716b.png](./7c1aa0ea75c712158ce123be2541716b.png)
+
+<img width="8192" height="4507" alt="atividade_uso app" src="https://github.com/user-attachments/assets/06e4eed3-9f38-465e-8799-a35111f1142a" />
 Figura 4: Diagrama de casos de uso da aplicação MindMove, com as
 principais funcionalidades disponibilizadas ao utilizador.
 
-![9bd1b0cae8c27ed39a70158ee9482f23.png](./9bd1b0cae8c27ed39a70158ee9482f23.png)
+<img width="4121" height="6926" alt="atividade_ participante" src="https://github.com/user-attachments/assets/d2a3b87d-e2bd-437e-8822-c2f6aeabaeb2" />
 Figura 5: Diagrama de atividade que descreve o percurso do utilizador na
 app MindMove.
 

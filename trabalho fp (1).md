@@ -150,10 +150,12 @@ Tabela 1: Cronograma do ensaio clínico MindMove
 | **Intervenção** | 8 semanas | Exercício aeróbico supervisionado (Grupo E) vs. Controlo sedentário (Grupo C) |  |
 | **Follow-up** | 8 semanas | Avaliações intermédias (4ªsem) e avaliação final (8ªsem) para medir eficácia |  |
 
+<img width="711" height="731" alt="Desenho de estudo CONSORT" src="https://github.com/user-attachments/assets/fc59fdf9-0478-49a0-8bf6-62ef1626b3e2" />
+
 O diagrama CONSORT será utilizado como ferramenta de reporte deste
 estudo, sendo preenchido na sua totalidade após a conclusão do ensaio
-clínico (Figura 1). ![Captura de ecrã 2026-03-26
-092716.png](........\Pictures\Screenshots\Captura%20de%20ecrã%202026-03-26%20092716.png)
+clínico (Figura 1). 
+
 Figura 1: Fluxograma CONSORT do ensaio clínico, ilustrando o processo de
 recrutamento, elegibilidade, randomização, follow-up e análise dos
 participantes ao longo do estudo.

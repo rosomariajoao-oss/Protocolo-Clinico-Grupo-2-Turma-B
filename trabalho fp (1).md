@@ -425,9 +425,7 @@ $$t = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}
 * $s_1^2$ e $s_2^2$ são as respetivas variâncias;
 * $n_1$ e $n_2$ são os tamanhos das amostras de cada braço do estudo.
 
-A análise principal do *outcome* primário será conduzida segundo o princípio de Intenção de Tratar (*Intention-to-Treat* - ITT).
-
-A análise dos dados será realizada utilizando o software R. O nível de
+A análise principal do *outcome* primário será conduzida segundo o princípio de Intenção de Tratar (*Intention-to-Treat* - ITT).A análise dos dados será realizada utilizando o software R. O nível de
 significância estatística será fixado em
 $\alpha = 0.05$ para todos os testes.
 

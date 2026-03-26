@@ -414,7 +414,8 @@ app MindMove.
 ### 4 Análise Estatística
 # Análise Estatística
 
-A análise dos dados será realizada utilizando o software R. O nível de significância estatística será fixado em $\alpha = 0.05$ para todos os testes.
+A análise dos dados será realizada utilizando o software R. O nível de
+significância estatística será fixado em $\alpha = 0.05$ para todos os testes.
 
 Para comparar as diferenças nas médias do PHQ-9 entre o grupo de intervenção e o grupo de controlo, será utilizado o teste *t* de Student para amostras independentes, cuja estatística é calculada pela seguinte equação:
 
@@ -425,45 +426,31 @@ $$t = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}
 * $s_1^2$ e $s_2^2$ são as respetivas variâncias;
 * $n_1$ e $n_2$ são os tamanhos das amostras de cada braço do estudo.
 
-A análise principal do *outcome* primário será conduzida segundo o princípio de Intenção de Tratar (*Intention-to-Treat* - ITT). 
-
-Para minimizar o viés de exclusão, todos os 30 participantes randomizados serão incluídos na análise final, independentemente da sua adesão à aplicação MindMove.
-
-Caso haja ocorrência de desistências (*dropouts*), utilizaremos o método de **Imputação Múltipla** para preencher os valores em falta nos questionários PHQ-9, GAD-7 e PSQI. Os dados em falta (*missing data*) resultantes de abandonos serão tratados através de métodos de imputação apropriados.
-
-Se os dados não apresentarem distribuição normal, será utilizado o teste não-paramétrico de **Mann-Whitney** em alternativa ao teste *t*.
-
----
-
-### Análise dos Outcomes Secundários
-
-Para a ansiedade (GAD-7) e qualidade do sono (PSQI), utilizaremos uma **ANOVA de Medidas Repetidas** para avaliar a evolução dos sintomas nos três momentos de medição (0, 4 e 8 semanas).
-
-* **Adesão (*engagement*):** será analisada de forma descritiva através da média e desvio-padrão do número de acessos semanais à aplicação.
-* **Eventos adversos:** a taxa de eventos (ex: agravamento severo de sintomas) será comparada entre grupos através do **Teste Exato de Fisher**.
+A análise principal do *outcome* primário será conduzida segundo o princípio de Intenção de Tratar (*Intention-to-Treat* - ITT).
 
 A análise dos dados será realizada utilizando o software R. O nível de
-significância estatística será fixado em $`````\alpha = 0.05`````$ para
-todos os testes.
+significância estatística será fixado em
+$\alpha = 0.05$ para todos os testes.
 
 Para minimizar o viés de exclusão, todos os 30 participantes
 randomizados serão incluídos na análise final, independentemente da sua
 adesão à aplicação MindMove.
 
-Caso haja ocorrência de desistências (*dropouts*), utilizaremos o método
-de Imputação Múltipla para preencher os valores em falta nos
+Caso haja ocorrência de desistências (*dropouts*), utilizaremos o
+método de Imputação Múltipla para preencher os valores em falta nos
 questionários PHQ-9, GAD-7 e PSQI.
 
-A análise principal do *outcome* primário (variação do *score* PHQ-9)
-será conduzida segundo o princípio de Intenção de Tratar
+A análise principal do *outcome* primário (variação do *score*
+PHQ-9) será conduzida segundo o princípio de Intenção de Tratar
 (*Intention-to-Treat* - ITT).
 
 Para comparar as diferenças nas médias do PHQ-9 entre o grupo de
 intervenção e o grupo de controlo no final das 8 semanas, será utilizado
 um teste *t* de Student para amostras independentes (ou o teste
 não-paramétrico de Mann-Whitney, caso os dados não apresentem
-distribuição normal). Os dados em falta (*missing data*) resultantes de
-abandonos serão tratados através de métodos de imputação apropriados.
+distribuição normal). Os dados em falta (*missing data*)
+resultantes de abandonos serão tratados através de métodos de imputação
+apropriados.
 
 **Análise dos Outcomes Secundários**
 
@@ -471,8 +458,8 @@ Para a ansiedade (GAD-7) e qualidade do sono (PSQI), utilizaremos uma
 ANOVA de Medidas Repetidas para avaliar a evolução dos sintomas nos três
 momentos de medição (0, 4 e 8 semanas).
 
-A adesão (*engagement*) será analisada de forma descritiva através da
-média e desvio-padrão do número de acessos semanais à aplicação.
+A adesão (*engagement*) será analisada de forma descritiva através
+da média e desvio-padrão do número de acessos semanais à aplicação.
 
 A taxa de eventos adversos (ex: agravamento severo de sintomas) será
 comparada entre grupos através do Teste Exato de Fisher.

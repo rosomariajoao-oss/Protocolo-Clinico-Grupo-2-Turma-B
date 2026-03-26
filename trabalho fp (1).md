@@ -276,16 +276,15 @@ Funcionalidades principais:
   participante ao longo do ensaio clínico, desde o recrutamento e
   avaliação de elegibilidade até à randomização, follow-up e análise
   final
-  
-<img width="4107" height="5039" alt="User-Centric Use Case Flow-2026-03-23-225125" src="https://github.com/user-attachments/assets/060fb7b8-9b9d-4bc8-be3b-5aace2d63561" />
-
-Figura 3: Diagrama de sequência com o processo de registo de humor na
-apli cação MindMove, desde a introdução dos dados pelo utilizador até ao
-seu ar mazenamento e processamento.
 
 - A frequência de uso esperada é de uma utilização diária,
   preferencialmente ao final do dia.
+<img width="4425" height="3375" alt="sequência" src="https://github.com/user-attachments/assets/158b6c6a-7caa-493a-95a3-5536f9aace82" />
 
+  Figura 2: Diagrama de atividade que representa o percurso do
+  participante ao longo do ensaio clínico, desde o recrutamento e
+  avaliação de elegibilidade até à randomização, follow-up e análise
+  final
 3.  **Mindfulness e Sugestões Personalizadas:**
 
 - Biblioteca de áudios de meditação guiada e técnicas de relaxamento.
@@ -335,14 +334,6 @@ de suporte imediato disponível em muitos contextos. O design de lista de
 espera garante que, por razões éticas, todos os participantes tenham
 acesso à tecnologia benéfica após o período de avaliação principal.
 
-<img width="8192" height="4507" alt="atividade_uso app" src="https://github.com/user-attachments/assets/06e4eed3-9f38-465e-8799-a35111f1142a" />
-Figura 4: Diagrama de casos de uso da aplicação MindMove, com as
-principais funcionalidades disponibilizadas ao utilizador.
-
-<img width="4121" height="6926" alt="atividade_ participante" src="https://github.com/user-attachments/assets/d2a3b87d-e2bd-437e-8822-c2f6aeabaeb2" />
-Figura 5: Diagrama de atividade que descreve o percurso do utilizador na
-app MindMove.
-
 #### 2.3.3 Critérios de Descontinuação
 
 Participantes serão retirados do estudo se:
@@ -353,6 +344,16 @@ Participantes serão retirados do estudo se:
 2.  Desenvolverem agravamento clínico severo, nomeadamente se surgir
     intenção suicida ou necessidade de internamento psiquiátrico
     imediato.
+
+<img width="4107" height="5039" alt="User-Centric Use Case Flow-2026-03-23-225125" src="https://github.com/user-attachments/assets/060fb7b8-9b9d-4bc8-be3b-5aace2d63561" />
+
+Figura 3: Diagrama de sequência com o processo de registo de humor na
+apli cação MindMove, desde a introdução dos dados pelo utilizador até ao
+seu ar mazenamento e processamento.
+
+<img width="8192" height="4507" alt="atividade_uso app" src="https://github.com/user-attachments/assets/06e4eed3-9f38-465e-8799-a35111f1142a" />
+Figura 4: Diagrama de casos de uso da aplicação MindMove, com as
+principais funcionalidades disponibilizadas ao utilizador.
 
 3.  Ocorrer uma violação grave do protocolo, como a partilha das
     credenciais de acesso à aplicação com terceiros ou início de nova
@@ -378,6 +379,10 @@ Pontuação total na escala PHQ-9 (*Patient Health Questionnaire-9*).
   em comparação com o grupo de controlo (lista de espera) às 8 semanas,
   refletindo uma diminuição na severidade da sintomatologia depressiva
   dos participantes.
+
+<img width="4121" height="6926" alt="atividade_ participante" src="https://github.com/user-attachments/assets/d2a3b87d-e2bd-437e-8822-c2f6aeabaeb2" />
+Figura 5: Diagrama de atividade que descreve o percurso do utilizador na
+app MindMove.
 
 ### 3.2 Outcomes Secundários
 
@@ -406,7 +411,36 @@ Pontuação total na escala PHQ-9 (*Patient Health Questionnaire-9*).
     Questionnaire* - CSQ-8), para compreender a utilidade percebida e a
     facilidade de uso da MindMove na rotina académica.
 
-### 3.3 Análise Estatística
+### 4 Análise Estatística
+# Análise Estatística
+
+A análise dos dados será realizada utilizando o software R. O nível de significância estatística será fixado em $\alpha = 0.05$ para todos os testes.
+
+Para comparar as diferenças nas médias do PHQ-9 entre o grupo de intervenção e o grupo de controlo, será utilizado o teste *t* de Student para amostras independentes, cuja estatística é calculada pela seguinte equação:
+
+$$t = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}$$
+
+**Onde:**
+* $\bar{X}_1$ e $\bar{X}_2$ são as médias das pontuações PHQ-9 de cada grupo;
+* $s_1^2$ e $s_2^2$ são as respetivas variâncias;
+* $n_1$ e $n_2$ são os tamanhos das amostras de cada braço do estudo.
+
+A análise principal do *outcome* primário será conduzida segundo o princípio de Intenção de Tratar (*Intention-to-Treat* - ITT). 
+
+Para minimizar o viés de exclusão, todos os 30 participantes randomizados serão incluídos na análise final, independentemente da sua adesão à aplicação MindMove.
+
+Caso haja ocorrência de desistências (*dropouts*), utilizaremos o método de **Imputação Múltipla** para preencher os valores em falta nos questionários PHQ-9, GAD-7 e PSQI. Os dados em falta (*missing data*) resultantes de abandonos serão tratados através de métodos de imputação apropriados.
+
+Se os dados não apresentarem distribuição normal, será utilizado o teste não-paramétrico de **Mann-Whitney** em alternativa ao teste *t*.
+
+---
+
+### Análise dos Outcomes Secundários
+
+Para a ansiedade (GAD-7) e qualidade do sono (PSQI), utilizaremos uma **ANOVA de Medidas Repetidas** para avaliar a evolução dos sintomas nos três momentos de medição (0, 4 e 8 semanas).
+
+* **Adesão (*engagement*):** será analisada de forma descritiva através da média e desvio-padrão do número de acessos semanais à aplicação.
+* **Eventos adversos:** a taxa de eventos (ex: agravamento severo de sintomas) será comparada entre grupos através do **Teste Exato de Fisher**.
 
 A análise dos dados será realizada utilizando o software R. O nível de
 significância estatística será fixado em $`````\alpha = 0.05`````$ para

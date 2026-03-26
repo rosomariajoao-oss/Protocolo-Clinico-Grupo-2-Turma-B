@@ -270,13 +270,6 @@ Funcionalidades principais:
 
 - A interação é feita através de escalas visuais analógicas.
 
-<img width="4425" height="3375" alt="sequência" src="https://github.com/user-attachments/assets/158b6c6a-7caa-493a-95a3-5536f9aace82" />
-
-  Figura 2: Diagrama de atividade que representa o percurso do
-  participante ao longo do ensaio clínico, desde o recrutamento e
-  avaliação de elegibilidade até à randomização, follow-up e análise
-  final
-
 - A frequência de uso esperada é de uma utilização diária,
   preferencialmente ao final do dia.
 <img width="4425" height="3375" alt="sequência" src="https://github.com/user-attachments/assets/158b6c6a-7caa-493a-95a3-5536f9aace82" />
@@ -308,12 +301,21 @@ O suporte será garantido através de um canal de chat dentro da própria
 aplicação e um endereço de e-mail dedicado à equipa de investigação, com
 tempo de resposta garantido de 24 horas úteis.
 
+<img width="4107" height="5039" alt="User-Centric Use Case Flow-2026-03-23-225125" src="https://github.com/user-attachments/assets/060fb7b8-9b9d-4bc8-be3b-5aace2d63561" />
+
+Figura 3: Diagrama de sequência com o processo de registo de humor na
+apli cação MindMove, desde a introdução dos dados pelo utilizador até ao
+seu ar mazenamento e processamento
+
 **Cuidado concomitante:**
 
 Os participantes mantêm o seu cuidado médico habitual, incluindo
 consultas de rotina com o seu médico assistente e qualquer medicação
 crónica não psicotrópica previamente estabelecida.
 
+<img width="8192" height="4507" alt="atividade_uso app" src="https://github.com/user-attachments/assets/06e4eed3-9f38-465e-8799-a35111f1142a" />
+Figura 4: Diagrama de casos de uso da aplicação MindMove, com as
+principais funcionalidades disponibilizadas ao utilizador.
 #### 2.3.2 Grupo Controlo
 
 Os participantes deste grupo não terão acesso à aplicação durante as 8
@@ -345,21 +347,14 @@ Participantes serão retirados do estudo se:
     intenção suicida ou necessidade de internamento psiquiátrico
     imediato.
 
-<img width="4107" height="5039" alt="User-Centric Use Case Flow-2026-03-23-225125" src="https://github.com/user-attachments/assets/060fb7b8-9b9d-4bc8-be3b-5aace2d63561" />
-
-Figura 3: Diagrama de sequência com o processo de registo de humor na
-apli cação MindMove, desde a introdução dos dados pelo utilizador até ao
-seu ar mazenamento e processamento.
-
-<img width="8192" height="4507" alt="atividade_uso app" src="https://github.com/user-attachments/assets/06e4eed3-9f38-465e-8799-a35111f1142a" />
-Figura 4: Diagrama de casos de uso da aplicação MindMove, com as
-principais funcionalidades disponibilizadas ao utilizador.
-
 3.  Ocorrer uma violação grave do protocolo, como a partilha das
     credenciais de acesso à aplicação com terceiros ou início de nova
     terapia psicofarmacológica durante o estudo.
 
 ------------------------------------------------------------------------
+<img width="4121" height="6926" alt="atividade_ participante" src="https://github.com/user-attachments/assets/d2a3b87d-e2bd-437e-8822-c2f6aeabaeb2" />
+Figura 5: Diagrama de atividade que descreve o percurso do utilizador na
+app MindMove.
 
 ## 3. Avaliações e Outcomes
 
@@ -379,10 +374,6 @@ Pontuação total na escala PHQ-9 (*Patient Health Questionnaire-9*).
   em comparação com o grupo de controlo (lista de espera) às 8 semanas,
   refletindo uma diminuição na severidade da sintomatologia depressiva
   dos participantes.
-
-<img width="4121" height="6926" alt="atividade_ participante" src="https://github.com/user-attachments/assets/d2a3b87d-e2bd-437e-8822-c2f6aeabaeb2" />
-Figura 5: Diagrama de atividade que descreve o percurso do utilizador na
-app MindMove.
 
 ### 3.2 Outcomes Secundários
 
@@ -463,9 +454,9 @@ comparada entre grupos através do Teste Exato de Fisher.
 
 ------------------------------------------------------------------------
 
-## 4. Ética e Disseminação
+## 5. Ética e Disseminação
 
-### 4.1 Aprovação Ética
+### 5.1 Aprovação Ética
 
 O presente protocolo de investigação foi desenhado em estrita
 conformidade com a Declaração de Helsínquia e com as diretrizes de Boas
@@ -475,7 +466,7 @@ Universidade do Porto (CEFMUP) antes do início de qualquer procedimento
 de recrutamento. Quaisquer alterações substanciais ao protocolo serão
 formalmente comunicadas e submetidas a nova aprovação ética.
 
-### 4.2 Consentimento Informado
+### 5.2 Consentimento Informado
 
 A obtenção do Consentimento Informado, Livre e Esclarecido (CILE) será
 realizada de forma digital durante a fase de *screening*. Os potenciais
@@ -489,7 +480,7 @@ acesso a cuidados de saúde habituais. O consentimento formal será
 registado através de uma assinatura digital segura antes da
 randomização.
 
-### 4.3 Confidencialidade e Proteção de Dados
+### 5.3 Confidencialidade e Proteção de Dados
 
 O tratamento de dados pessoais e clínicos cumprirá rigorosamente o
 Regulamento Geral sobre a Proteção de Dados (RGPD). Todos os dados
@@ -502,7 +493,7 @@ dados gerados pela interação com a aplicação serão armazenados em
 servidores *cloud* com certificação de segurança na área da saúde e não
 serão partilhados com terceiros para fins comerciais.
 
-### 4.4 Política de Disseminação
+### 5.4 Política de Disseminação
 
 Os resultados deste ensaio clínico, quer sejam positivos, negativos ou
 inconclusivos, serão submetidos para publicação em revistas científicas

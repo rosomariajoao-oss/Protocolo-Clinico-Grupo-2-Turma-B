@@ -51,7 +51,7 @@ população a um stress acumulado que resulta numa prevalência elevada de
 sintomatologia depressiva ligeira a moderada. Este período representa
 uma fase de vulnerabilidade crítica onde, caso não seja intervencionado
 precocemente, o sofrimento emocional pode comprometer o rendimento
-académico e progredir para quadros de depressão maior.
+académico e progredir para quadros de depressão maior. [1]
 
 Atualmente, o acesso aos cuidados convencionais de saúde mental enfrenta
 limitações estruturais severas. Nos contextos universitários, os
@@ -60,14 +60,14 @@ horários rígidos que dificultam a procura de ajuda. Adicionalmente, o
 estigma associado ao apoio presencial atua como uma barreira
 psicológica, levando a que muitos estudantes adiem a procura de auxílio
 até que os sintomas se tornem incapacitantes, perdendo-se a janela de
-oportunidade para uma intervenção mais eficaz.
+oportunidade para uma intervenção mais eficaz. [2]
 
 A evidência científica recente tem demonstrado que as intervenções
 digitais, particularmente a terapia cognitivo-comportamental digital
 (dCBT), são ferramentas eficazes, escaláveis e desestigmatizantes para a
 gestão de sintomas depressivos e ansiosos. Estas soluções permitem
 alcançar uma população vasta que, de outra forma, permaneceria sem
-suporte profissional.
+suporte profissional. [3]
 
 Este estudo pretende preencher uma lacuna na literatura ao avaliar o
 impacto de uma solução integrada, a aplicação “MindMove”. Ao combinar
@@ -104,10 +104,10 @@ de espera.
 Os objetivos secundários deste estudo são:
 
 1.  Comparar a redução dos níveis de ansiedade entre os dois grupos,
-    avaliada através da escala GAD-7.
+    avaliada através da escala GAD-7. [6]
 
 2.  Analisar a melhoria na qualidade do sono dos participantes,
-    utilizando o índice PSQI (Pittsburgh Sleep Quality Index).
+    utilizando o índice PSQI (Pittsburgh Sleep Quality Index). [4]
 
 3.  Avaliar o impacto da intervenção no aumento dos níveis de atividade
     física semanal dos estudantes.
@@ -364,7 +364,7 @@ Pontuação total na escala PHQ-9 (*Patient Health Questionnaire-9*).
 
 - **Instrumento:** PHQ-9, um instrumento de autorrelato validado,
   composto por 9 itens que avaliam a severidade dos sintomas depressivos
-  nos últimos 14 dias, baseado nos critérios do DSM-5.
+  nos últimos 14 dias, baseado nos critérios do DSM-5. [4]
 
 - **Momento de avaliação:** Avaliação realizada no momento *baseline*
   (semana 0, pré-randomização) e no final da intervenção (semana 8).
@@ -410,6 +410,7 @@ significância estatística será fixado em $\alpha = 0.05$ para todos os testes
 Para comparar as diferenças nas médias do PHQ-9 entre o grupo de intervenção e o grupo de controlo, será utilizado o teste *t* de Student para amostras independentes, cuja estatística é calculada pela seguinte equação:
 
 $$t = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}$$
+(1)
 
 **Onde:**
 * $\bar{X}_1$ e $\bar{X}_2$ são as médias das pontuações PHQ-9 de cada grupo;
@@ -460,7 +461,7 @@ comparada entre grupos através do Teste Exato de Fisher.
 
 O presente protocolo de investigação foi desenhado em estrita
 conformidade com a Declaração de Helsínquia e com as diretrizes de Boas
-Práticas Clínicas (GCP). O estudo será submetido para apreciação e
+Práticas Clínicas (GCP). [7] O estudo será submetido para apreciação e
 aprovação pela Comissão de Ética da Faculdade de Medicina da
 Universidade do Porto (CEFMUP) antes do início de qualquer procedimento
 de recrutamento. Quaisquer alterações substanciais ao protocolo serão
@@ -511,56 +512,38 @@ gratuitamente aos estudantes que integraram o grupo de controlo.
 (2022). Mental health of college students is getting worse. Monitor on
 Psychology, 53(7).
 
-- Auerbach, R. P., et al. (2018). WHO World Mental Health Surveys
-  International College Student Project: Prevalence and distribution of
-  mental disorders. Journal of Abnormal Psychology, 127(7), 623–638.
-  https://doi.org/10.1037/abn0000362
+[1] Ibrahim, A. K., Kelly, S. J., Adams, C. E., & Glazebrook,
+C. (2013). A systematic review of studies of depression prevalence in university students. J Psychiatr Res, 47(3), 391-400.
+https://doi.org/10.1016/j.jpsychires.2012.11.015
 
-• Ribas, R., & Silva, C. (2022). Saúde mental no ensino superior: Um es
-tudo sobre a prevalência de sintomas depressivos e ansiosos em
-estudantes portugueses. Revista Portuguesa de Saúde Pública, 40(1),
-15–28.
+[2] Gulliver, A., Griffiths, K. M., & Christensen, H. (2010). Perceived barriers
+and facilitators to mental health help-seeking in young people: a systematic
+review. BMC Psychiatry, 10, 113. https://doi.org/10.1186/1471-244X-10-
+113
 
-• Andersson, G. (2016). Internet-delivered cognitive behavior therapy:
-From bench to bench. Psychosomatic Medicine, 78(2), 115–121.
-https://doi. org/10.1097/PSY.0000000000000276
+[3] Karyotaki, E., Efthimiou, O., Miguel, C., Bermpohl, F. M. G., Furukawa,
+T. A., Cuijpers, P., Individual Patient Data Meta-Analyses for Depression, C., Riper, H., Patel, V., Mira, A., Gemmil, A. W., Yeung, A. S.,
+Lange, A., Williams, A. D., Mackinnon, A., Geraedts, A., van Straten, A.,
+Meyer, B., Bjorkelund, C., ... Forsell, Y. (2021). Internet-Based Cognitive
+Behavioral Therapy for Depression: A Systematic Review and Individual
+Patient Data Network Meta-analysis. JAMA Psychiatry, 78(4), 361-371.
+https://doi.org/10.1001/jamapsychiatry.2020.4364
 
-• Firth, J., et al. (2017). The efficacy of smartphone-based mental
-health interventions for depressive symptoms: A meta-analysis of
-randomized controlled trials. World Psychiatry, 16(3), 287–298.
-https://doi.org/ 10.1002/wps.20472
+[4] Kroenke, K., Spitzer, R. L., & Williams, J. B. (2001). The PHQ-9: validity
+of a brief depression severity measure. J Gen Intern Med, 16(9), 606-613.
+https://doi.org/10.1046/j.1525-1497.2001.016009606.x
 
-• Lattie, E. G., et al. (2019). Digital mental health interventions for
-depres sion, anxiety, and enhancement of psychological well-being among
-college students: Systematic review. Journal of Medical Internet
-Research, 21(7), e12869. https://doi.org/10.2196/12869
+[5] McCoy, C. E. (2017). Understanding the Intention-to-treat Principle in
+Randomized Controlled Trials. West J Emerg Med, 18(6), 1075-1078.
+https://doi.org/10.5811/westjem.2017.8.35985
 
-- Gonçalves, A. M., et al. (2017). Reliability and validity of the
-  Patient He alth Questionnaire-9 (PHQ-9) in Portuguese university
-  students. Journal of Affective Disorders.
+[6] Spitzer, R. L., Kroenke, K., Williams, J. B., & Lowe, B. (2006). A brief
+measure for assessing generalized anxiety disorder: the GAD-7. Arch Intern
+Med, 166(10), 1092-1097. https://doi.org/10.1001/archinte.166.10.1092
 
-- Kroenke, K., Spitzer, R. L., & Williams, J. B. (2001). The PHQ-9: Va
-  lidity of a brief depression severity measure. Journal of General
-  Internal Medicine, 16(9), 606–613.
+[7] World Medical, A. (2013). World Medical Association Declaration of Helsinki: ethical principles for medical research involving human subjects.
+JAMA, 310(20), 2191-2194. https://doi.org/10.1001/jama.2013.281053
 
-- Buysse, D. J., et al. (1989). The Pittsburgh Sleep Quality Index: A
-  new instrument for psychiatric practice and research. Psychiatry
-  Research, 28(2), 193–213.
-
-- Spitzer, R. L., et al. (2006). A brief measure for assessing
-  generalized anxiety disorder: The GAD-7. Archives of Internal
-  Medicine, 166(10), 1092–1097.
-
-- Eysenbach, G. (2011). CONSORT-EHEALTH: Improving the reporting of
-  randomized controlled trials of web-based and mobile health
-  interventions. Journal of Medical Internet Research, 13(4), e126.
-
-- World Medical Association. (2013). World Medical Association Declara
-  tion of Helsinki: Ethical principles for medical research involving
-  human subjects. JAMA, 310(20), 2191–2194.
-
-- Schulz, K. F., et al. (2010). CONSORT 2010 Statement: Updated guide
-  lines for reporting parallel group randomised trials. BMJ, 340, c332.
 
 ------------------------------------------------------------------------
 
